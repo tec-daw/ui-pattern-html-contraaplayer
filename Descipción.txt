@@ -1,0 +1,1 @@
+Hola, lo que hice fue implementar un desing pattner que es un module tab a mi pagina, los elementos basicos que considere para el html fueron un body, un nav, etiquetas de ancla y una lista desordenada y agregue algo de css

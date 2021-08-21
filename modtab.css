@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: #297F87;
+}
+
+.menunav{
+    display: inline-block;
+    padding: 10px 30px;
+    color: #fff;
+    text-decoration: none; /*Para quitar la parte subrayada el hypervinculo de la etiqueta ancla*/
+    font-family: 'Roboto', sans-serif;
+}
+.menunav:hover{ /* pseudoclase que hara que cuando el mouse este sobre un elemento del nav este cambiara a otro color*/
+    background: #DF2E2E;
+}
+.lista{
+    display: inline-block;
+    margin: 0;
+}
+
+nav{
+    background: #999b84;
+    padding: 10px;
+    margin: 0px;
+    display:  flex;
+    justify-content: space-around; /*Si agregaramos otro elemento en html dentro de la clase padre el elemento se ajustaria automaticamente*/
+}
+div{
+    display: flex;
+    justify-content: space-around;
+}
+
+h1{
+    margin: 0;
+    color: #000;
+    text-align: center; 
+    padding: 10px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 40px;
+}
